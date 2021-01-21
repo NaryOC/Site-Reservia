@@ -589,6 +589,9 @@ li {
   html{
     width: 100%;
   }
+  .search_form_submit_input{
+    width: 18%;
+  }
   .search_filters div{
     margin-left: 1em;
   }
@@ -624,7 +627,7 @@ li {
   background-color: white;
 }
 .charts h2{
-  margin: 0 15em;
+  margin: 0 12em;
   margin-left: 0;
 }
 .populary_component img{
@@ -632,7 +635,7 @@ li {
 }
 .populary_component{
   width: 90%;
-  margin-left: 1.2em;
+  margin-left: 1.7rem;
 }
 
 .populary_description{
@@ -658,7 +661,129 @@ footer{
 }
 }
 /* screen iphone 6/7/8 */
-
+@media screen and (max-width: 375px) {
+  nav img{
+    width: 6rem;
+  }
+  nav{
+    border-bottom: 1px solid #b3adad;
+  }
+  .search_form_submit_input{
+    display: none;
+  }
+  .search_form_text_input{
+    width: 47%;
+  }
+  .search_form span{
+    display: block;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    padding: 1rem;
+    font-size: 1em;
+    background-color: #0065FC;
+    color: white;
+  }
+.navbar{
+  flex-direction: column;
+  margin-top: 2rem;
+  flex-wrap: wrap-reverse;
+}
+.search_filters h2{
+  margin: 0.5rem 4rem 1rem 0.2rem;
+  font-size: 1.3rem;
+}
+h1{
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.global_hostings h2{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.hostings_component{
+  width: 19rem;
+}
+.hostings_component img{
+  width: 19rem;
+}
+.populary_component{
+  width: 20rem;
+  margin-left: 1rem;
+}
+.charts {
+  padding: 0;
+}
+.populary_description h3{
+  font-size: 1rem;
+}
+.populary_description p{
+  font-size: 0.85rem;
+}
+.main_activities h2{
+  font-size: 1.2rem;
+}
+.charts h2{
+  margin: 0 6rem;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+.populary {
+    display: flex;
+    border-radius: 0;
+    margin-top: 2em;
+    background-color: white;
+}
+.activities_component{
+  width: 19rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.activities_component img{
+  width: 19rem;
+  height: 10em;
+}
+.activities_component_1_1{
+  width: 19rem;
+  margin-right: 1.5rem;
+}
+.activities_component_1_1 img{
+  width: 19rem;
+}
+.activities_component_1_2{
+  width: 19rem;
+}
+.activities_component_1_2 img{
+  width: 19rem
+}
+.activities_component_2_1{
+  width: 19rem;
+  margin-right: 1.5rem;
+}
+.activities_component_2_1 img{
+  width: 19rem;
+}
+.activities_component_2_2{
+  width: 19rem;
+}
+.activities_component_2_2 img{
+  width: 19rem;
+}
+.cards_3{
+  margin: 0 0 1.5em 1.5em;
+}
+.about {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.our_hostings{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.assistance{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+}
 /* screen iphone 5 */
 @media screen and (max-width: 320px) {
   nav img{
@@ -672,7 +797,7 @@ footer{
     display: none;
   }
   .search_form_text_input{
-    width: 50%;
+    width: 47%;
   }
   .search_form span{
     display: block;
@@ -696,7 +821,8 @@ h1{
   font-size: 1.2rem;
 }
 .global_hostings h2{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  margin-left: 2rem;
 }
 .hostings_component{
   width: 16em;
@@ -706,6 +832,7 @@ h1{
 }
 .populary_component{
   width: 16em;
+  margin-left: 1rem;
 }
 .charts {
   padding: 0;
@@ -720,7 +847,7 @@ h1{
   font-size: 1.2rem;
 }
 .charts h2{
-  margin: 0 3rem;
+  margin: 0 2.5rem;
   font-size: 1.2rem;
   margin-left: 0;
 }
@@ -733,6 +860,7 @@ h1{
 .activities_component{
   width: 16em;
   height: auto;
+  margin-right: 2rem;
 }
 .activities_component img{
   width: 16em;
@@ -740,6 +868,7 @@ h1{
 }
 .activities_component_1_1{
   width: 16em;
+  margin-right: 1.5rem;
 }
 .activities_component_1_1 img{
   width: 16em;
@@ -752,6 +881,7 @@ h1{
 }
 .activities_component_2_1{
   width: 16em;
+  margin-right: 1.5rem;
 }
 .activities_component_2_1 img{
   width: 16em;
@@ -766,15 +896,15 @@ h1{
   margin: 0 0 1.5em 1.5em;
 }
 .about {
-    margin-left: 1em;
-    margin-top: 1em;
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 .our_hostings{
-  margin-left: 1em;
-  margin-top: 1em;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 .assistance{
-  margin-left: 1em;
-  margin-top: 1em;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 }
