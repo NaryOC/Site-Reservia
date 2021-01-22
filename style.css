@@ -579,7 +579,8 @@ li {
     list-style: none;
 }
 /* ipad */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)
+{
 
   body{
     width: 100%;
@@ -590,8 +591,7 @@ li {
   .search_form_submit_input{
     width: 18%;
   }
-  
-  }
+
   .search_filters{
     margin: 0 1.5rem;
   }
@@ -733,8 +733,9 @@ footer{
   background-color: white;
 }
 .charts h2{
-  margin: 0 12em;
+  margin: 0 21rem;
   margin-left: 0;
+
 }
 .populary_component img{
   width: 40%;
@@ -764,6 +765,141 @@ footer{
 
 footer{
   flex-direction: column;
+}
+}
+/* screen Pixel2 411*/
+@media screen and (max-width: 411px) {
+  nav img{
+    width: 6rem;
+  }
+  nav{
+    border-bottom: 1px solid #b3adad;
+  }
+  .search_form_submit_input{
+    display: none;
+  }
+  .search_form_text_input{
+    width: 47%;
+  }
+  .search_form span{
+    display: block;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    padding: 1rem;
+    font-size: 1em;
+    background-color: #0065FC;
+    color: white;
+  }
+.navbar{
+  flex-direction: column;
+  margin-top: 2rem;
+  flex-wrap: wrap-reverse;
+}
+.search_filters h2{
+  margin: 0.5rem 7rem 1rem 0.2rem;
+  font-size: 1.3rem;
+}
+.search_filter_category_1{
+  margin-right: 3rem;
+}
+.search_filter_category_2{
+  margin-right: 4rem;
+}
+h4{
+  font-size: 1.2rem;
+}
+h1{
+  font-size: 1.7rem;
+  margin-left: 2rem;
+}
+.global_hostings h2{
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.hostings_component{
+  width: 21rem;
+}
+.hostings_component img{
+  width: 21rem;
+}
+.populary_component{
+  width: 21rem;
+  margin-left: 1rem;
+}
+.charts {
+  padding: 0;
+}
+.populary_description h3{
+  font-size: 1rem;
+}
+.populary_description p{
+  font-size: 0.85rem;
+}
+.main_activities h2{
+  font-size: 1.2rem;
+  text-align: left;
+    margin: 0 0 1rem 2.2rem;
+}
+.charts h2{
+  margin: 0 8rem;
+  font-size: 1.2rem;
+  margin-left: 0;
+}
+.populary {
+    display: flex;
+    border-radius: 0;
+    margin-top: 2em;
+    background-color: white;
+}
+.activities_component{
+  width: 21rem;
+  height: auto;
+  margin-right: 2rem;
+}
+.activities_component img{
+  width: 21rem;
+  height: 10em;
+}
+.activities_component_1_1{
+  width: 21rem;
+  margin-right: 1.5rem;
+}
+.activities_component_1_1 img{
+  width: 21rem;
+}
+.activities_component_1_2{
+  width: 21rem;
+}
+.activities_component_1_2 img{
+  width: 21rem;
+}
+.activities_component_2_1{
+  width: 21rem;
+  margin-right: 1.5rem;
+}
+.activities_component_2_1 img{
+  width: 21rem;
+}
+.activities_component_2_2{
+  width: 21rem;
+}
+.activities_component_2_2 img{
+  width: 21rem;
+}
+.cards_3{
+  margin: 0 0 1.5em 1.5em;
+}
+.about {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.our_hostings{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.assistance{
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 }
 /* screen iphone 6/7/8 */
