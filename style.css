@@ -1109,13 +1109,15 @@ h1{
 }
 section.container_1{
   flex-direction: column-reverse;
+  align-content: center;
+  margin-left: 0.55rem;
 }
 .global_hostings{
   background-color: white;
 }
 .global_hostings h2{
   font-size: 1.1rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
 }
 .cards_1{
   background-color: white;
@@ -1126,6 +1128,9 @@ section.container_1{
 }
 .hostings_component img{
   width: 21rem;
+}
+.show_more{
+  margin-left: 4rem;
 }
 .populary_component{
   width: 21rem;
@@ -1263,14 +1268,22 @@ h1{
 }
 .global_hostings h2{
   font-size: 1.1rem;
-  margin-left: 2rem;
+  margin-left: 4rem;
   margin-top: 0;
+}
+section.container_1{
+  align-content: center;
+  margin-left: 0.55rem;
 }
 .hostings_component{
   width: 21rem;
 }
 .hostings_component img{
   width: 21rem;
+}
+.show_more{
+  margin-left: 4rem;
+  margin-bottom: 0;
 }
 .populary_component{
   width: 21rem;
@@ -1410,13 +1423,16 @@ h1{
 }
 .global_hostings h2{
   font-size: 1.1rem;
-  margin-left: 2rem;
+  margin-left: 5rem;
 }
 .hostings_component{
   width: 19rem;
 }
 .hostings_component img{
   width: 19rem;
+}
+.show_more{
+  margin-left: 5rem;
 }
 .populary_component{
   width: 20rem;
@@ -1517,7 +1533,7 @@ footer{
     flex-direction: unset;
   }
   h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .search_filters div{
     margin-left: 0;
@@ -1529,11 +1545,12 @@ footer{
     font-size: 1rem;
   }
   section.container_1{
-    margin-left: 0.2rem;
+    margin-left: 0.6rem;
+    align-content: center;
   }
   .global_hostings h2{
     margin-bottom: 0;
-    margin-left: 1rem;
+    margin-left: 6rem;
   }
   .hostings_component{
     width: 17rem;
@@ -1543,7 +1560,7 @@ footer{
     width: 17rem;
   }
   .show_more{
-    margin-left: 1rem;
+    margin-left: 6rem;
     margin-bottom: 0;
   }
   .charts h2{
@@ -1845,13 +1862,13 @@ h4{
 }
 section.container_1{
   align-content: center;
+  margin-left: 0.2rem;
 }
 .cards_1{
   background-color: white;
   margin-left: 0;
 }
 .global_hostings h2{
-  align-self: center;
   font-size: 1rem;
 }
 .hostings_component{
