@@ -915,6 +915,7 @@ footer{
   }
   .global_hostings h2{
     margin-bottom: 0;
+    margin-left: 2.5rem;
   }
   .hostings_component{
   width: 13rem;
@@ -924,8 +925,8 @@ footer{
   height: 10rem;
   }
   .show_more{
-  margin-left: 2em;
-  margin-bottom: 1rem;
+  margin-left: 3rem;
+
   }
   .global_hostings{
   flex-direction: column;
@@ -962,11 +963,11 @@ footer{
   flex-direction: column;
   }
   .main_activities h2{
-  margin-left: 3rem;
+  margin-left: 2rem;
   }
   .cards_3 {
       flex-direction: row;
-      margin: 2em 0 1.5em 0.5em;
+      margin-top: 0;
       flex-wrap: wrap;
   }
   .activities_component img{
@@ -1068,7 +1069,6 @@ h1{
 section.container_1{
   flex-direction: column-reverse;
   align-content: center;
-  margin-left: 0.55rem;
 }
 .global_hostings{
   background-color: white;
@@ -1084,6 +1084,7 @@ section.container_1{
 }
 .hostings_component{
   width: 21rem;
+  margin-left: 3rem;
 }
 .hostings_component img{
   width: 21rem;
@@ -1096,7 +1097,7 @@ section.container_1{
 }
 .populary_component{
   width: 21rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .charts {
   padding: 0;
@@ -1123,7 +1124,6 @@ section.container_1{
 .populary {
     display: flex;
     border-radius: 0;
-    margin-top: 2em;
     background-color: white;
     margin-left: 1rem;
 }
@@ -1233,6 +1233,7 @@ h1{
 }
 .global_hostings{
   width: 100%;
+  margin-left: 0.5rem;
 }
 .global_hostings h2{
   font-size: 1.1rem;
@@ -1241,7 +1242,7 @@ h1{
 }
 section.container_1{
   align-content: center;
-  margin-left: 0.55rem;
+  margin-left: 0;
 }
 .hostings_component{
   width: 21rem;
@@ -1258,7 +1259,7 @@ section.container_1{
 }
 .populary_component{
   width: 21rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-bottom: 0;
 }
 .charts {
@@ -1278,7 +1279,7 @@ section.container_1{
 .charts h2{
   margin: 0 8rem;
   font-size: 1.2rem;
-  margin-left: 0;
+  margin-left: 1rem;
 }
 .populary {
     display: flex;
@@ -1391,28 +1392,28 @@ h1{
 }
 .cards_1{
   background-color: white;
-  margin-left: 0;
-  margin-right: 1rem;
+  margin-left: 2rem;
 }
 .global_hostings h2{
   font-size: 1.1rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .hostings_component{
   width: 19rem;
+  margin-left: 0;
 }
 .hostings_component img{
   width: 19rem;
 }
 .show_more{
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .populary{
   width: 100%;
 }
 .populary_component{
   width: 20rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .charts {
   padding: 0;
@@ -1473,7 +1474,7 @@ h1{
   width: 19rem;
 }
 .cards_3{
-  margin: 0 0 1.5em 1.5em;
+  margin-left: 1.3rem;
 }
 footer{
   flex-direction: column;
@@ -1668,14 +1669,15 @@ section.container_1{
 }
 .cards_1{
   background-color: white;
-  margin-left: 0;
+  margin-left: 3rem;
 }
 .global_hostings h2{
   font-size: 1rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .hostings_component{
   width: 15rem;
+  margin-left: 0;
 }
 .hostings_component img{
   width: 15rem;
@@ -1685,7 +1687,7 @@ section.container_1{
   font-size: 1rem;
 }
 .show_more{
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .fas{
   font-size: 1.5rem;
@@ -1696,7 +1698,6 @@ section.container_1{
 .populary_component{
   width: 16rem;
   height: 8rem;
-  margin-left: 1rem;
 }
 .populary_component img{
   height: 8rem;
@@ -1720,12 +1721,11 @@ section.container_1{
 .charts h2{
   margin: 0 3rem;
   font-size: 1.2rem;
-  margin-left: 0;
+  margin-left: 0.5rem;
 }
 .populary {
     display: flex;
     border-radius: 0;
-    margin-top: 2em;
     background-color: white;
 }
 .activities_component{
@@ -1852,21 +1852,21 @@ h4{
 }
 .global_hostings{
   background-color: white;
+  width: 100%;
 }
 section.container_1{
   align-content: center;
-  margin-left: 0.2rem;
 }
 .cards_1{
   background-color: white;
-  margin-left: 3rem;
+  margin-left: 0;
 }
 .global_hostings h2{
   font-size: 1rem;
 }
 .hostings_component{
   width: 15rem;
-  margin-left: 0.7rem;
+  margin-left: 2rem;
 }
 .hostings_component img{
   width: 15rem;
@@ -1882,10 +1882,13 @@ section.container_1{
 .fas{
   font-size: 1.5rem;
 }
+.populary{
+  width: 100%;
+}
 .populary_component{
   width: 15rem;
   height: 8rem;
-  margin-left: 1.75rem;
+  margin-left: 1rem;
 }
 .populary_component img{
   height: 8rem;
@@ -1923,8 +1926,7 @@ section.container_1{
   width: 15rem;
   height: auto;
   margin-top: 0;
-  margin-left: 0;
-  margin-left: -0.3rem;
+  margin-left: 1rem;
 }
 .activities_component img{
   width: 15rem;
@@ -1932,7 +1934,7 @@ section.container_1{
 }
 .activities_component_1_1{
   width: 15rem;
-  margin-left: -0.3rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 .activities_component_1_1 img{
@@ -1940,14 +1942,14 @@ section.container_1{
 }
 .activities_component_1_2{
   width: 15rem;
-  margin-left: -0.3rem;
+  margin-left: 1rem;
 }
 .activities_component_1_2 img{
   width: 15rem
 }
 .activities_component_2_1{
   width: 15rem;
-  margin-left: -0.3rem;
+  margin-left: 1rem;
   margin-top: 1rem;
 }
 .activities_component_2_1 img{
@@ -1955,13 +1957,13 @@ section.container_1{
 }
 .activities_component_2_2{
   width: 15rem;
-  margin-left: -0.3rem;
+  margin-left: 1rem;
 }
 .activities_component_2_2 img{
   width: 15rem;
 }
 .cards_3{
-  margin: 0 0 1.5em 1.5em;
+  margin-left: 0;
 }
 div.activites{
   width: 100%;
