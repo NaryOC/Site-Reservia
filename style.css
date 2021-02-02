@@ -1228,6 +1228,9 @@ h1{
   font-size: 1.7rem;
   margin-left: 2rem;
 }
+.cards_1{
+  margin-left: 2rem;
+}
 .global_hostings{
   width: 100%;
 }
@@ -1518,19 +1521,24 @@ footer{
     font-size: 1rem;
   }
   section.container_1{
-    margin-left: 0.6rem;
+    margin-left: 0;
     align-content: center;
+  }
+  .cards_1{
+    margin-left: 3rem;
   }
   .global_hostings{
     width: 100%;
+    margin-left: 1rem;
   }
   .global_hostings h2{
     margin-bottom: 0;
-    margin-left: 2rem;
+    margin-left: 4rem;
   }
   .hostings_component{
     width: 17rem;
     margin-bottom: 0;
+    margin-top: 1rem;
   }
   .hostings_component img{
     width: 17rem;
@@ -1545,6 +1553,8 @@ footer{
   }
   .populary{
     width: 100%;
+    margin-top: 0;
+    margin-left: 2rem;
   }
   .populary_component{
     margin-bottom: 0;
