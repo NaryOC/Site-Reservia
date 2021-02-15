@@ -1,0 +1,999 @@
+/* ipad Pro */
+@media screen and (max-width: 1024px){
+  .search_form_submit_input{
+    width: 18%;
+  }
+  .search_filters{
+    margin: 0 1.5rem;
+  }
+  .search_filters h2{
+    margin: 0.5em 0.7em 1rem 0em;
+  }
+  .search_filter_category_1{
+    width: 10rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_2{
+    width: 8rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_3{
+    width: 10rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_4{
+    width: 13rem;
+    margin-right: 0.5rem;
+  }
+  .info{
+    margin: 0 0 0 1.8em;
+  }
+  section.container_1 {
+    flex-direction: column-reverse;
+}
+.cards_1{
+  flex-direction: row;
+  background-color: #F2F2F2;
+}
+.show_more{
+  margin-left: 2em;
+  margin-top: 0;
+  }
+.global_hostings{
+  flex-direction: column;
+  background-color: #F2F2F2;
+  margin: 0 2rem;
+  width: 94%;
+}
+.hostings_component{
+  width: 17rem;
+}
+.hostings_component img{
+  width: 17rem;
+}
+.populary{
+  display: flex;
+  border-radius:  2rem;
+  margin-top: 2em;
+  background-color: #F2F2F2;
+  width: 94%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.populary_component{
+  width: 56rem;
+  height: 15rem;
+}
+.populary_component img{
+  width: 25rem;
+}
+.populary_description{
+  width: 40rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.populary_description p{
+  margin-bottom: 5rem;
+}
+.charts h2{
+  margin: 0 27em;
+  margin-left: 0;
+}
+.cards_3 {
+      flex-direction: row;
+      margin: 1rem 0 1.5rem 0.5rem;
+      flex-wrap: wrap;
+}
+.activities_component img{
+    height: 25rem;
+}
+.activities_component{
+  margin: 1em 1.5em 1em 0.5em;
+}
+}
+/* iPad */
+@media screen and (max-width: 768px){
+  .search_form{
+    margin-left: 2rem;
+  }
+  .search_form_submit_input{
+    width: 18%;
+  }
+  .search_filters{
+    margin: 0 1.5rem;
+  }
+  .search_filters h2{
+    margin: 0.5em 0.7em 1rem 0em;
+    margin-right: 35rem;
+  }
+  .search_filter_category_1,.search_filter_category_3{
+    width: 10rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_2{
+    width: 8rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_4{
+    width: 13rem;
+    margin-right: 0.5rem;
+  }
+  .info{
+    margin: 0 0 0 1.8em;
+  }
+  section.container_1 {
+    flex-direction: column;
+}
+.cards_1, .global_hostings{
+  flex-direction: row;
+  background-color: #F2F2F2;
+  margin-left: 0;
+}
+.cards_1{
+  margin-left: 1rem;
+}
+.hostings_component{
+  width: 19rem;
+}
+.hostings_component img{
+  width: 19rem;
+  height: 12rem;
+}
+.global_hostings, .populary{
+  flex-direction: column;
+  width: 45rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.charts h2{
+  margin: 0 25rem;
+  margin-left: 0;
+}
+.populary_component img{
+  width: 40%;
+  height: 12rem;
+}
+.populary_component{
+  width: 90%;
+  height: 12rem;
+  margin-left: 2rem;
+}
+.populary_description{
+  width: 56%;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon{
+  font-size: 1.3rem;
+}
+.populary_description p{
+  margin-bottom: 4rem;
+}
+.main_activities{
+  flex-direction: column;
+}
+.main_activities h2{
+  margin-left: 3rem;
+}
+.cards_3 {
+      flex-direction: row;
+      margin: 2em 0 1.5em 0.5em;
+      flex-wrap: wrap;
+}
+.activities_component img{
+    height: 25rem;
+    width: 21rem;
+}
+.activities_component{
+  margin: 1em 1.5em 1em 0.5em;
+  width: 21rem;
+}
+.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 21rem;
+}
+footer{
+  flex-direction: row;
+}
+.about{
+  margin-left: 3rem;
+}
+}
+/* Surface Duo */
+@media screen and (max-width: 540px){
+  h1{
+    font-size: 1.1rem;
+    margin: 2rem
+  }
+  .search_form{
+    margin-left: 2rem;
+  }
+  .search_form_submit_input{
+    width: 23%;
+  }
+  .search_filters{
+    margin: 0 1.5rem;
+  }
+  .search_filters h2{
+    margin: 0.5em 0.7em 1rem 0em;
+  }
+  .search_filter_category_1,.search_filter_category_3{
+    width: 10rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_2{
+    width: 8rem;
+    margin-right: 0.5rem;
+  }
+  .search_filter_category_4{
+    width: 13rem;
+    margin-right: 0.5rem;
+  }
+  .info{
+    margin: 0 0 0 1.8em;
+  }
+  section.container_1 {
+    flex-direction: column;
+}
+.global_hostings{
+  width: 100%;
+  flex-wrap: wrap;
+  border-radius: unset;
+}
+.cards_1, .global_hostings{
+  flex-direction: row;
+  background-color: #F2F2F2;
+  margin-left: 0;
+}
+.cards_1{
+  margin-left: 1rem;
+}
+.hostings_component, .hostings_component img{
+  width: 14rem;
+  margin-bottom: 0;
+}
+.hostings_component img{
+  height: 10rem;
+}
+.populary{
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+  margin-left: 0;
+  border-radius: unset;
+}
+.charts h2{
+  margin: 0 14rem;
+  margin-left: 0;
+}
+.populary_component img{
+  width: 38%;
+  height: 11rem;
+}
+.populary_component{
+  width: 90%;
+  height: 11rem;
+  margin-left: 1.3rem;
+}
+.populary_description{
+  width: 56%;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon{
+  font-size: 1.3rem;
+}
+.populary_description p{
+  margin-bottom: 2rem;
+}
+.main_activities{
+  flex-direction: column;
+}
+.main_activities h2{
+  margin-left: 1.5rem;
+}
+.cards_3 {
+      flex-direction: row;
+      margin-top: 0;
+      flex-wrap: wrap;
+}
+.activities_component img{
+    height: 25rem;
+    width: 14rem;
+}
+.activities_component{
+  margin: 1em 1.5em 1em 0.5em;
+  width: 14rem;
+}
+.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 14rem;
+}
+footer{
+  flex-direction: row;
+}
+.about{
+  margin-left: 2rem;
+}
+footer h4{
+  font-size: 1rem;
+}
+}
+/* Responsive 480px */
+@media screen and (max-width: 480px){
+  .search_form_submit_input{
+    width: 25%;
+  }
+  .cards_1, .global_hostings{
+    margin: 0;
+  }
+  .cards_1{
+    margin-bottom: 1rem;
+  }
+  .hostings_component, .hostings_component img{
+    width: 13rem;
+  }
+  .show_more, #logo{
+    margin-left: 1rem;
+  }
+  .charts h2{
+    margin: 0 11rem;
+    margin-left: 0;
+  }
+  .populary_component{
+    margin-bottom: 0;
+  }
+  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 12rem;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .about, .our_hostings, .assistance{
+    margin-left: 1.5rem;
+  }
+}
+/* iPhone 6/7/8 Plus 414px*/
+@media screen and (max-width: 414px){
+  #logo, h1, .search_form, .search_filters div, p, .info{
+    margin-left: 1.55rem;
+  }
+.hosting_link {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 10px;
+    width: 11.3rem;
+    border-bottom: 3px solid #0065FC;
+}
+.activity_link{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    padding: 10px;
+    width: 12rem;
+    border-bottom: 3px solid #f2f2f2;
+}
+.sincrire_link{
+  grid-column-start: 4;
+}
+.search_form_submit_input{
+    display: none;
+  }
+  .search_form_text_input{
+    width: 47%;
+  }
+  .search_form span{
+    display: block;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    padding: 1rem;
+    font-size: 1em;
+    background-color: #0065FC;
+    color: white;
+  }
+  .search_form .fas, .search_filter_category_icon .fas{
+    font-size: 1rem;
+  }
+  .search_filters{
+    margin: 0;
+  }
+  .search_filter_category_1, .search_filter_category_3{
+    width: 9rem;
+    margin-right: 0;
+  }
+.search_filter_category_2{
+  width: 7rem;
+  margin-left: 0.7rem;
+}
+.search_filter_category_4{
+  width: 11rem;
+  margin-left: 0.7rem;
+}
+.search_filters h2{
+  margin: 1rem 20rem 1rem 0;
+  font-size: 1.3rem;
+}
+section.container_1{
+  flex-direction: column-reverse;
+}
+.global_hostings{
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+.cards_1{
+  background-color: white;
+}
+.global_hostings h2{
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem 2rem;
+}
+.hostings_component, .hostings_component img{
+  width: 22rem;
+}
+.hostings_component img{
+  height: 8rem;
+}
+.show_more{
+  margin-top: 0;
+  margin-left: 2rem;
+}
+.fas{
+  font-size: 1.5rem;
+}
+.charts{
+  margin-top: 1rem;
+  padding: 0;
+}
+.populary{
+ width: 100%;
+ background-color: #F2F2F2;
+ border-radius: unset;
+ margin-left: 0;
+}
+.populary_component{
+  width: 22rem;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+.populary_component, .populary_component img{
+  height: 9rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas, .search_filter_category_title{
+  font-size: 0.85rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.main_activities h2{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+.charts h2{
+  font-size: 1.2rem;
+  margin: 0 10rem;
+  margin-left: 0;
+}
+.activities_component{
+  width: 22rem;
+  height: auto;
+  margin: 1rem 0;
+}
+.activities_component img{
+  width: 22rem;
+  height: 10rem;
+}
+.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 22rem;
+}
+.activities_component_1_1, .activities_component_1_2, .activities_component_2_1, .activities_component_2_2{
+  margin-left: 1rem;
+}
+.activities_component_2_1{
+  margin-top: 0;
+}
+.cards_3{
+ flex-direction: column;
+ margin: 0;
+}
+footer{
+  flex-direction: column;
+}
+.about{
+  margin-left: 2rem;
+}
+}
+/* Pixel 2 */
+@media screen and (max-width: 411px){
+  .hosting_link{
+    width: 11rem;
+  }
+  h4{
+    font-size: 1.1rem;
+  }
+  .hostings_component{
+    margin-top: 1rem;
+  }
+  .show_more{
+    margin-left: 2rem;
+  }
+  .populary{
+    margin-left: 0;
+  }
+  .populary_description h3, .populary_description p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .populary_component, .populary_component img{
+    height: 9rem;
+  }
+  .main_activities h2, .about{
+    margin-left: 2rem;
+  }
+  .populary_component{
+    margin-left: 1rem;
+  }
+}
+
+/* iPhone 6/7/8 (375)*/
+@media screen and (max-width: 375px){
+  #logo{
+    margin-left: 1rem;
+  }
+.hosting_link {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 10px;
+    width: 10.4rem;
+    border-bottom: 3px solid #0065FC;
+}
+.activity_link{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    padding: 10px;
+    width: 10.5rem;
+    border-bottom: 3px solid #f2f2f2;
+}
+.sincrire_link{
+  grid-column-start: 4;
+}
+.search_form_submit_input{
+    display: none;
+  }
+  .search_form_text_input{
+    width: 47%;
+  }
+  .search_form span{
+    display: block;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    padding: 1rem;
+    font-size: 1em;
+    background-color: #0065FC;
+    color: white;
+  }
+  .search_form .fas, .search_filter_category_icon .fas{
+    font-size: 1rem;
+  }
+  .search_form, .search_filters div, p{
+    margin-left: 1rem;
+  }
+  .search_filters{
+    margin: 0;
+  }
+  .search_filter_category_1, .search_filter_category_3{
+    width: 9rem;
+    margin-right: 0;
+  }
+.search_filter_category_2{
+  width: 7rem;
+  margin-left: 0.7rem;
+}
+.search_filter_category_4{
+  width: 11rem;
+  margin-left: 0.7rem;
+}
+.search_filters h2{
+  margin: 1rem 10rem 1rem 0;
+  font-size: 1.3rem;
+}
+.info{
+  margin: 0 1em 1em 1em;
+}
+h1{
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+section.container_1{
+  flex-direction: column-reverse;
+}
+.global_hostings{
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+.cards_1{
+  background-color: white;
+}
+.global_hostings h2{
+  font-size: 1rem;
+  margin: 2rem 0 1rem 2rem;
+}
+.hostings_component, .hostings_component img{
+  width: 20rem;
+}
+.hostings_component img{
+  height: 8rem;
+}
+.show_more{
+  margin-top: 0;
+}
+.fas{
+  font-size: 1.5rem;
+}
+.charts{
+  margin-top: 1rem;
+  padding: 0;
+}
+.populary{
+ width: 100%;
+ background-color: #F2F2F2;
+ border-radius: unset;
+}
+.populary_component{
+  width: 20rem;
+  height: 8rem;
+  margin-bottom: 0;
+}
+.populary_component img{
+  height: 8rem;
+  width: 9rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas, .search_filter_category_title{
+  font-size: 0.85rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars{
+  margin-left: 1rem;
+}
+.populary_description{
+  padding: 4px;
+}
+.main_activities h2{
+  font-size: 1.2rem;
+}
+.charts h2{
+  font-size: 1.2rem;
+  margin: 0 7rem;
+  margin-left: 0;
+}
+.activities_component{
+  width: 20rem;
+  height: auto;
+  margin: 1rem 0;
+}
+.activities_component img{
+  width: 20rem;
+  height: 10rem;
+}
+.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 20rem;
+}
+.activities_component_1_1, .activities_component_1_2, .activities_component_2_1, .activities_component_2_2{
+  margin-left: 1rem;
+}
+.activities_component_2_1{
+  margin-top: 0;
+}
+.cards_3{
+ flex-direction: column;
+ margin: 0;
+}
+footer{
+  flex-direction: column;
+}
+footer h4{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.about, .our_hostings, .assistance{
+    margin-left: 1.5rem;
+}
+}
+/* Galaxy S5 */
+@media screen and (max-width: 360px){
+  .search_filter_category_2, .search_filter_category_4{
+    margin-left: 0.5rem;
+  }
+  .global_hostings h2 {
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+  .hosting_link, .activity_link{
+    width: 10rem;
+  }
+  .hostings_component, .hostings_component img, .populary_component{
+    width: 19rem;
+  }
+  .hostings_component{
+    margin-top: 1rem;
+  }
+  .populary{
+    margin: 0;
+  }
+  .show_more{
+    margin-left: 2rem;
+  }
+  .activities_component, .activities_component img,.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 19rem;
+  }
+}
+/* iPhone 5/SE */
+@media screen and (max-width: 320px){
+  #logo{
+    margin-left: 1rem;
+  }
+.hosting_link {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 10px;
+    width: 9.5rem;
+    border-bottom: 3px solid #0065FC;
+}
+.activity_link{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    padding: 10px;
+    width: 8rem;
+    border-bottom: 3px solid #f2f2f2;
+}
+.sincrire_link{
+  grid-column-start: 4;
+}
+.search_form_submit_input{
+    display: none;
+  }
+  .search_form_text_input{
+    width: 47%;
+  }
+  .search_form span{
+    display: block;
+    border-radius: 0 1rem 1rem 0;
+    border: none;
+    padding: 1rem;
+    font-size: 1em;
+    background-color: #0065FC;
+    color: white;
+  }
+  .search_form .fas, .search_filter_category_icon .fas{
+    font-size: 1rem;
+  }
+  .search_form, .search_filters div, p{
+    margin-left: 1rem;
+  }
+  .search_filters{
+    margin: 0;
+  }
+  .search_filter_category_1, .search_filter_category_3{
+    width: 9rem;
+    margin-right: 0;
+  }
+.search_filter_category_2{
+  width: 7rem;
+  margin-left: 0.7rem;
+}
+.search_filter_category_4{
+  width: 11rem;
+  margin-left: 0;
+}
+.search_filters h2{
+  margin: 1rem 10rem 1rem 0;
+  font-size: 1.3rem;
+}
+.info{
+  margin: 0 1em 1em 1em;
+}
+h1{
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+section.container_1{
+  flex-direction: column-reverse;
+}
+.global_hostings{
+  background-color: white;
+  width: 100%;
+  margin: 0;
+}
+.cards_1{
+  background-color: white;
+}
+.global_hostings h2{
+  font-size: 1rem;
+  margin: 2rem 0 1rem 2rem;
+}
+.hostings_component, .hostings_component img{
+  width: 16rem;
+  margin-left: 0;
+}
+.hostings_component img{
+  height: 8rem;
+}
+.show_more{
+  margin-top: 0;
+}
+.fas{
+  font-size: 1.5rem;
+}
+.charts{
+  margin-top: 1rem;
+  padding: 0;
+}
+.populary{
+ width: 100%;
+ background-color: #F2F2F2;
+ border-radius: unset;
+ margin-left: 0;
+}
+.populary_component{
+  width: 16rem;
+  height: 7rem;
+  margin-bottom: 0;
+}
+.populary_component img{
+  height: 7rem;
+  width: 6rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas, .search_filter_category_title{
+  font-size: 0.85rem;
+}
+.populary_description h3, .populary_description p, .populary_description .stars{
+  margin-bottom: 1rem;
+}
+.populary_description{
+  width: 60%;
+}
+.main_activities h2{
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+.charts h2{
+  font-size: 1.2rem;
+  margin: 0 3rem;
+  margin-left: 0;
+}
+.activities_component{
+  width: 16rem;
+  height: auto;
+  margin: 1rem 0;
+}
+.activities_component img{
+  width: 16rem;
+  height: 10rem;
+}
+.activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 16rem;
+}
+.activities_component_1_1, .activities_component_1_2, .activities_component_2_1, .activities_component_2_2{
+  margin-left: 1rem;
+}
+.activities_component_2_1{
+  margin-top: 0;
+}
+.cards_3{
+ flex-direction: column;
+ margin: 0;
+}
+footer{
+  flex-direction: column;
+}
+footer h4{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.about {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.our_hostings{
+  margin-left: 2rem;
+  margin-top: 0;
+}
+.assistance{
+  margin-left: 2rem;
+  margin-top: 0;
+}
+}
+/* Galaxy Fold */
+@media screen and (max-width: 280px){
+  h1{
+    font-size: 1rem;
+  }
+  .hosting_link, .activity_link{
+    width: 7.5rem;
+  }
+  .search_form_icon{
+    padding: 0.8rem 1.1rem;
+  }
+  .search_form span{
+    padding: 0.75rem;
+  }
+  .search_filter_category_2{
+    margin-left: 0;
+  }
+  .info{
+    margin-bottom: 0;
+  }
+  h4{
+    font-size: small;
+  }
+  .global_hostings, .populary{
+    width: 100%;
+  }
+  .global_hostings h2{
+    margin: 0;
+    margin-left: 1.5rem;
+  }
+  .hostings_component, .hostings_component img{
+    width: 14rem;
+  }
+  .hostings_component{
+    margin-top: 1rem;
+  }
+  .populary_component{
+    width: 15rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .populary_description h3, .populary_description p, .populary_description .stars{
+    margin-left: 0;
+  }
+  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 14rem;
+  }
+  .cards_3 h3{
+    font-size: 0.85rem;
+  }
+  .about, .our_hostings, .assistance{
+    margin-left: 1.5rem;
+  }
+}
+/* Responsive 241px */
+@media screen and (max-width: 241px){
+  #logo {
+    margin-left: 0.5rem;
+}
+  .hosting_link, .activity_link{
+    width: 6.2rem;
+  }
+  h4, p{
+    font-size: 0.85rem;
+  }
+  .global_hostings h2{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  .charts h2{
+    margin: 0 1rem;
+    font-size: 1rem;
+    margin-left: 0;
+  }
+  .main_activities h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .show_more{
+    margin-left: 2rem;
+  }
+  .populary_description{
+    width: 63%;
+  }
+  .populary_component, .hostings_component, .hostings_component img, .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 12rem;
+  }
+  .activities_component{
+    margin-top: 0;
+  }
+  .populary_component img{
+    width: 4rem;
+  }
+  .populary_description h3, .populary_description p, .populary_description .stars{
+    margin-bottom: 0;
+  }
+}
