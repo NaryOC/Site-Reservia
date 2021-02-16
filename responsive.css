@@ -198,6 +198,35 @@ footer{
   margin-left: 3rem;
 }
 }
+/* responsive 640px */
+@media screen and (max-width: 640px){
+  section.container_1{
+    flex-direction: column-reverse;
+  }
+  .search_filters h2{
+    margin-right: 25rem;
+  }
+  .global_hostings, .populary{
+    width: 38rem;
+    margin-left: 1rem;
+  }
+  .hostings_component, .hostings_component img{
+    width: 16rem;
+  }
+  .charts h2{
+  margin: 0 18rem;
+  margin-left: 0;
+  }
+  .populary_component{
+    margin-left: 1.5rem;
+  }
+  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img {
+    width: 17rem;
+  }
+.about{
+  margin-left: 2;
+}
+}
 /* Surface Duo */
 @media screen and (max-width: 540px){
   h1{
@@ -724,6 +753,22 @@ footer h4{
     width: 19rem;
   }
 }
+/* reponsive 340px */
+@media screen and (max-width: 340px){
+  .hosting_link, .activity_link{
+    width: 9.5rem;
+  }
+  .search_filter_category_4{
+    margin-left: 0;
+  }
+  .charts h2{
+    margin: 0 6rem;
+    margin-left: 0;
+  }
+  .populary_component img{
+    width: 8rem;
+  }
+}
 /* iPhone 5/SE */
 @media screen and (max-width: 320px){
   #logo{
@@ -954,6 +999,12 @@ footer h4{
     margin-left: 1.5rem;
   }
 }
+/* Responsive 264px */
+@media screen and (max-width: 264px){
+  .hosting_link, .activity_link{
+    width: 7rem;
+  }
+}
 /* Responsive 241px */
 @media screen and (max-width: 241px){
   #logo {
@@ -996,4 +1047,17 @@ footer h4{
   .populary_description h3, .populary_description p, .populary_description .stars{
     margin-bottom: 0;
   }
+}
+/* responsive 870px */
+@media screen and (max-width: 870px){
+  .charts h2 {
+    margin: 0 21em;
+    margin-left: 0;
+}
+  .populary_component {
+    width: 47rem;
+}
+.hostings_component, .hostings_component img{
+  width: 15rem;
+}
 }
