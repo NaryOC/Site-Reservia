@@ -272,26 +272,6 @@ footer{
   margin-left: 2;
 }
 }
-/* Responsive 600px */
-@media screen and (max-width: 600px){
-  .search_form_submit_input {
-    width: 20%;
-}
-  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
-    width: 16rem;
-  }
-  .global_hostings, .populary{
-    width: auto;
-    margin-left: 2rem;
-  }
-  .hostings_component, .hostings_component img {
-    width: 14rem;;
-}
-.charts h2{
-  margin: 0 14rem;
-  margin-left: 0;
-}
-}
 /* Surface Duo */
 @media screen and (max-width: 540px){
   h1{
