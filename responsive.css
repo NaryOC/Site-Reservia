@@ -93,6 +93,25 @@
   margin: 1em 1.5em 1em 0.5em;
 }
 }
+/* Responsive 770px */
+@media screen and (max-width: 770px);  @media screen and (max-width: 780px); @media screen and (max-width: 790px); @media screen and (max-width: 800px);@media screen and (max-width: 810px);@media screen and (max-width: 820px);@media screen and (max-width: 830px);@media screen and (max-width: 840px);@media screen and (max-width: 850px);@media screen and (max-width: 860px);@media screen and (max-width: 870px);@media screen and (max-width: 880px);@media screen and (max-width: 890px);@media screen and (max-width: 900px);@media screen and (max-width: 910px);@media screen and (max-width: 920px){
+  .charts h2{
+    margin: 0 16em;
+    margin-left: 0;
+  }
+  .populary, .global_hostings{
+    margin-left: 1.5rem;
+  }
+  .populary_component{
+    width: 42rem;
+  }
+  .populary_component img{
+    width: 20rem;
+  }
+  .hostings_component, .hostings_component img{
+    width: 13rem;
+  }
+}
 /* iPad */
 @media screen and (max-width: 768px){
   .search_form{
@@ -198,6 +217,32 @@ footer{
   margin-left: 3rem;
 }
 }
+/* Responsive 700px */
+@media screen and (max-width: 700px){
+  section.container_1{
+    flex-direction: column-reverse;
+  }
+  .cards_3{
+    margin-top: 0;
+  }
+  .global_hostings, .populary{
+    width: 41rem;
+    margin-bottom: 0;
+  }
+  .hostings_component, .hostings_component img{
+    width: 17rem;
+  }
+  .charts h2 {
+    margin: 0 20rem;
+    margin-left: 0;
+}
+.populary_component{
+  margin-left: 1.7rem;
+}
+.activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+  width: 19rem;
+}
+}
 /* responsive 640px */
 @media screen and (max-width: 640px){
   section.container_1{
@@ -225,6 +270,26 @@ footer{
   }
 .about{
   margin-left: 2;
+}
+}
+/* Responsive 600px */
+@media screen and (max-width: 600px){
+  .search_form_submit_input {
+    width: 20%;
+}
+  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 16rem;
+  }
+  .global_hostings, .populary{
+    width: auto;
+    margin-left: 2rem;
+  }
+  .hostings_component, .hostings_component img {
+    width: 14rem;;
+}
+.charts h2{
+  margin: 0 14rem;
+  margin-left: 0;
 }
 }
 /* Surface Duo */
@@ -1047,17 +1112,4 @@ footer h4{
   .populary_description h3, .populary_description p, .populary_description .stars{
     margin-bottom: 0;
   }
-}
-/* responsive 870px */
-@media screen and (max-width: 870px){
-  .charts h2 {
-    margin: 0 21em;
-    margin-left: 0;
-}
-  .populary_component {
-    width: 47rem;
-}
-.hostings_component, .hostings_component img{
-  width: 15rem;
-}
 }
