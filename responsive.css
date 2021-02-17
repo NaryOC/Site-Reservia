@@ -272,6 +272,30 @@ footer{
   margin-left: 2;
 }
 }
+/* Responsive 600px */
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 1.3rem;
+  }
+  .search_form_submit_input {
+    width: 20%;
+}
+.global_hostings h2{
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+  .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
+    width: 16rem;
+  }
+  .global_hostings, .populary{
+    border-radius: unset;
+    width: 37.5rem;
+    margin-left: 0;
+  }
+  .main_activities h2 {
+    margin-left: 1.5rem;
+}
+}
 /* Surface Duo */
 @media screen and (max-width: 540px){
   h1{
