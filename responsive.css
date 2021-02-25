@@ -42,7 +42,7 @@
 .global_hostings{
   flex-direction: column;
   background-color: #F2F2F2;
-  margin: 0 2rem;
+  margin: 0 1.5rem;
   width: 94%;
 }
 .hostings_component{
@@ -57,18 +57,19 @@
   margin-top: 2em;
   background-color: #F2F2F2;
   width: 94%;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-bottom: 2rem;
 }
 .populary_component{
-  width: 56rem;
+  width: 94%;
   height: 15rem;
+  margin-left: 1.5rem;
 }
 .populary_component img{
-  width: 25rem;
+  width: 45%;
 }
 .populary_description{
-  width: 40rem;
+  width: 52%;
 }
 .populary_description h3, .populary_description p, .populary_description .stars_icon{
   font-size: 1.5rem;
