@@ -93,8 +93,24 @@
   margin: 1em 1.5em 1em 0.5em;
 }
 }
+/* Responsive 800px */
+@media screen and (max-width: 800px){
+  .charts h2{
+    margin: 0 19em;
+    margin-left: 0;
+  }
+  .populary, .global_hostings{
+    margin-left: 1.5rem;
+  }
+  .populary_component{
+    width: 94%;
+  }
+  .populary_component img{
+    width: 50%;
+  }
+}
 /* Responsive 770px */
-@media screen and (max-width: 770px);{
+@media screen and (max-width: 770px){
   .charts h2{
     margin: 0 16em;
     margin-left: 0;
@@ -238,9 +254,6 @@ footer{
 }
 .populary_component{
   margin-left: 1.7rem;
-}
-.populary_a{
-  width: 100%;
 }
 .activities_component, .activities_component img, .activities_component_1_1, .activities_component_1_1 img, .activities_component_1_2, .activities_component_1_2 img, .activities_component_2_1, .activities_component_2_1 img, .activities_component_2_2, .activities_component_2_2 img{
   width: 19rem;
@@ -678,21 +691,22 @@ footer{
   .search_filters{
     margin: 0;
   }
-  .search_filter_category_1, .search_filter_category_3{
-    width: 9rem;
-    margin-right: 0;
+  .search_filter_category_title {
+    font-size: 1.2rem;
   }
-.search_filter_category_2{
-  width: 7rem;
-  margin-left: 0.7rem;
-}
-.search_filter_category_4{
-  width: 11rem;
-  margin-left: 0.7rem;
-}
+  .search_filter_category_1, .search_filter_category_2, .search_filter_category_3, .search_filter_category_4{
+    width: auto;
+  }
+  .search_filter_category_4{
+    margin-left: 0;
+  }
 .search_filters h2{
   margin: 1rem 10rem 1rem 0;
   font-size: 1.3rem;
+}
+.search_filter_category_icon{
+  width: 3rem;
+  height: 3rem;
 }
 .info{
   margin: 0 1em 1em 1em;
@@ -713,7 +727,7 @@ section.container_1{
   background-color: white;
 }
 .global_hostings h2{
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 2rem 0 1rem 2rem;
 }
 .hostings_component, .hostings_component img{
@@ -746,7 +760,7 @@ section.container_1{
   height: 8rem;
   width: 9rem;
 }
-.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas, .search_filter_category_title{
+.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas{
   font-size: 0.85rem;
 }
 .populary_description h3, .populary_description p, .populary_description .stars{
