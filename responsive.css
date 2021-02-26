@@ -909,15 +909,15 @@ footer h4{
     margin: 0;
   }
   .search_filter_category_1, .search_filter_category_3{
-    width: 9rem;
+    width: auto;
     margin-right: 0;
   }
 .search_filter_category_2{
-  width: 7rem;
+  width: auto;
   margin-left: 0.7rem;
 }
 .search_filter_category_4{
-  width: 11rem;
+  width: auto;
   margin-left: 0;
 }
 .search_filters h2{
@@ -970,7 +970,7 @@ section.container_1{
  margin-left: 0;
 }
 .populary_component{
-  width: 16rem;
+  width: 87%;
   height: 7rem;
   margin-bottom: 0;
 }
@@ -985,7 +985,7 @@ section.container_1{
   margin-bottom: 1rem;
 }
 .populary_description{
-  width: 60%;
+  width: 63%;
 }
 .main_activities h2{
   font-size: 1.2rem;
