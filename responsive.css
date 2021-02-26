@@ -514,15 +514,11 @@ footer h4{
     margin: 0;
   }
   .search_filter_category_1, .search_filter_category_3{
-    width: 9rem;
+    width: auto;
     margin-right: 0;
   }
-.search_filter_category_2{
-  width: 7rem;
-  margin-left: 0.7rem;
-}
-.search_filter_category_4{
-  width: 11rem;
+.search_filter_category_2, .search_filter_category_4{
+  width: auto;
   margin-left: 0.7rem;
 }
 .search_filters h2{
@@ -620,7 +616,7 @@ footer{
   margin-left: 2rem;
 }
 }
-/* Pixel 2 */
+/* Pixel2 411px*/
 @media screen and (max-width: 411px){
   .hosting_link{
     width: 11rem;
@@ -628,6 +624,12 @@ footer{
   h4{
     font-size: 1.1rem;
   }
+.search_filter_category_title {
+    font-size: 1.2rem;
+}
+.search_filter_category_4{
+  margin-left: 0;
+}
   .hostings_component{
     margin-top: 1rem;
   }
@@ -643,6 +645,9 @@ footer{
   }
   .populary_component, .populary_component img{
     height: 9rem;
+  }
+  .populary_component{
+    width: 89%;
   }
   .main_activities h2, .about{
     margin-left: 2rem;
@@ -817,10 +822,13 @@ footer h4{
     margin-left: 1.5rem;
 }
 }
-/* Galaxy S5 */
+/* Galaxy S5 360px*/
 @media screen and (max-width: 360px){
-  .search_filter_category_2, .search_filter_category_4{
+  .search_filter_category_2{
     margin-left: 0.5rem;
+  }
+  .search_filter_category_4{
+    margin-left: 0;
   }
   .global_hostings h2 {
     font-size: 1.3rem;
@@ -830,8 +838,11 @@ footer h4{
   .hosting_link, .activity_link{
     width: 10rem;
   }
-  .hostings_component, .hostings_component img, .populary_component{
+  .hostings_component, .hostings_component img{
     width: 19rem;
+  }
+  .populary_component{
+    width: auto;
   }
   .hostings_component{
     margin-top: 1rem;
