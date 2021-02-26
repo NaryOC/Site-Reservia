@@ -759,13 +759,13 @@ section.container_1{
  border-radius: unset;
 }
 .populary_component{
-  width: 20rem;
+  width: auto;
   height: 8rem;
   margin-bottom: 0;
 }
 .populary_component img{
-  height: 8rem;
-  width: 9rem;
+  height: auto;
+  width: 42%;
 }
 .populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas{
   font-size: 0.85rem;
