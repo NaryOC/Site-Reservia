@@ -56,9 +56,8 @@
   width: 94%;
 }
 .populary_component{
-  width: 94%;
+  width: auto;
   height: 15rem;
-  margin-left: 1.5rem;
 }
 .populary_component img{
   width: 45%;
@@ -155,7 +154,7 @@
     margin: 0 0 0 1.8em;
   }
   section.container_1 {
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .cards_1, .global_hostings{
   flex-direction: row;
@@ -187,9 +186,8 @@
   height: 12rem;
 }
 .populary_component{
-  width: 90%;
+  width: auto;
   height: 12rem;
-  margin-left: 2rem;
 }
 .populary_description{
   width: 56%;
@@ -352,7 +350,7 @@ footer{
     margin: 0 0 0 1.8em;
   }
   section.container_1 {
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .global_hostings{
   width: 100%;
@@ -390,9 +388,9 @@ footer{
   height: 11rem;
 }
 .populary_component{
-  width: 90%;
+  width: auto;
   height: 11rem;
-  margin-left: 1.3rem;
+  margin-left: 1rem;
 }
 .populary_description{
   width: 56%;
@@ -517,9 +515,17 @@ footer h4{
     width: auto;
     margin-right: 0;
   }
-.search_filter_category_2, .search_filter_category_4{
+.search_filter_category_2{
   width: auto;
   margin-left: 0.7rem;
+}
+.search_filter_category_4{
+  margin-left: 0;
+  width: auto;
+}
+.search_filter_category_icon{
+  width: 3rem;
+  height: 3rem;
 }
 .search_filters h2{
   margin: 1rem 20rem 1rem 0;
@@ -564,15 +570,17 @@ section.container_1{
  margin-left: 0;
 }
 .populary_component{
-  width: 22rem;
+  width: auto;
   margin-left: 1rem;
-  margin-bottom: 0;
 }
 .populary_component, .populary_component img{
   height: 9rem;
 }
-.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas, .search_filter_category_title{
+.populary_description h3, .populary_description p, .populary_description .stars_icon, .hostings_description .fas{
   font-size: 0.85rem;
+}
+.search_filter_category_title{
+  font-size: 1.3rem;
 }
 .populary_description h3, .populary_description p, .populary_description .stars{
   margin-bottom: 1rem;
@@ -1086,9 +1094,7 @@ footer h4{
     margin-top: 1rem;
   }
   .populary_component{
-    width: 15rem;
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
   }
   .populary_description h3, .populary_description p, .populary_description .stars{
     margin-left: 0;
