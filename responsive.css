@@ -306,6 +306,15 @@ footer{
   margin-left: 3rem;
 }
 }
+/* Responsive 716px */
+@media screen and (max-width: 716px){
+  .global_hostings, .populary{
+    width: auto;
+  }
+  .hostings_component, .hostings_component img{
+    width: 17rem;
+  }
+}
 /* Responsive 700px */
 @media screen and (max-width: 700px){
   section.container_1{
