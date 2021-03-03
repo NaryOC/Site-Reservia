@@ -1,3 +1,35 @@
+/* Responsive 1050px */
+@media screen and (max-width: 1050px){
+  .search_form_submit_input{
+    width: 12%;
+  }
+  section.container_1{
+    flex-direction: column-reverse;
+  }
+  .populary{
+    margin-bottom: 1rem;
+    width: auto;
+    margin-left: 2rem;
+  }
+  .populary_component{
+    width: auto;
+    height: 15rem;
+  }
+  .populary_component img{
+    width: 25rem;
+  }
+  .populary_description {
+    width: 56%;
+  }
+  .populary_description h3, .populary_description p, .populary_description .fas{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .charts h2 {
+    margin: 0 28em;
+    margin-left: 0;
+}
+}
 /* ipad Pro */
 @media screen and (max-width: 1024px){
   .search_form_submit_input{
@@ -441,7 +473,7 @@ footer h4{
   .cards_1, .global_hostings{
     margin: 0;
   }
-  .cards_1{
+  .cards_1, .populary{
     margin-bottom: 1rem;
   }
   .hostings_component, .hostings_component img{
@@ -470,7 +502,13 @@ footer h4{
 
 /* iPhone 6/7/8 Plus 414px*/
 @media screen and (max-width: 414px){
-  #logo, h1, .search_form, .search_filters div, p, .info{
+  #logo, h1, .search_form, p, .info{
+    margin-left: 1.55rem;
+  }
+  .search_filters div{
+    margin-left: 0;
+  }
+  .search_filters section{
     margin-left: 1.55rem;
   }
 .hosting_link {
@@ -479,8 +517,10 @@ footer h4{
     padding: 10px;
     width: 11.3rem;
     border-bottom: 3px solid #0065FC;
+
 }
 .activity_link{
+  box-sizing: border-box;
     grid-row-start: 2;
     grid-column-start: 4;
     padding: 10px;
@@ -528,8 +568,9 @@ footer h4{
   height: 3rem;
 }
 .search_filters h2{
-  margin: 1rem 20rem 1rem 0;
+  margin: 1rem 10rem 1rem 0;
   font-size: 1.3rem;
+  padding-left: 1.55rem;
 }
 section.container_1{
   flex-direction: column-reverse;
@@ -646,6 +687,7 @@ footer{
   }
   .populary{
     margin-left: 0;
+    margin-right: 0;
   }
   .populary_description h3, .populary_description p{
     font-size: 1rem;
