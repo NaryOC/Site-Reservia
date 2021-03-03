@@ -308,8 +308,13 @@ footer{
 }
 /* Responsive 716px */
 @media screen and (max-width: 716px){
+  .charts h2 {
+    margin: 0 22rem;
+    margin-left: 0;
+}
   .global_hostings, .populary{
     width: auto;
+    margin-left: 2rem;
   }
   .hostings_component, .hostings_component img{
     width: 17rem;
