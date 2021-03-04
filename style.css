@@ -166,7 +166,7 @@ h4{
     font-size: 1em;
     background-color: #0065FC;
     color: white;
-    width: 9%;
+    width: auto;
 }
 /* section filtres*/
 .search_filters{
@@ -258,7 +258,7 @@ h4{
 .hostings_component{
   display: flex;
   flex-direction: column;
-  width: 15em;
+  width: auto;
   height: auto;
   margin: 1em 0;
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
