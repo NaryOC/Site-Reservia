@@ -536,6 +536,16 @@ footer h4{
   font-size: 1rem;
 }
 }
+/* Responsive 490px */
+@media screen and (max-width: 490px){
+  .search_filters h2{
+    margin-right: 15rem;
+  }
+  .charts h2 {
+    margin: 0 10rem;
+    margin-left: 0;
+}
+}
 /* Responsive 480px */
 @media screen and (max-width: 480px){
   .search_form_submit_input{
