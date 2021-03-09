@@ -296,8 +296,6 @@ h4{
 }
 section.container_1 {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     padding: 0px;
     width: 100%;
 }
@@ -306,7 +304,6 @@ section.container_1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
     background-color: #F2F2F2;
     margin: 1em;
     margin-top: 0.2em;
@@ -345,7 +342,6 @@ a{
     display: flex;
     flex: 0.3;
     margin: 0 2em 0 0;
-    justify-content: space-between;
     background-color: #F2F2F2;
     border-radius: 25px;
     align-items: center;
@@ -355,7 +351,6 @@ a{
 }
 .charts {
     display: flex;
-    justify-content: space-between;
     padding: 2em 1em 1em 1em;
 }
 .charts h2 {
@@ -449,7 +444,6 @@ div.activities{
 .cards_3 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-left: 1em;
