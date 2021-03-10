@@ -387,6 +387,7 @@ footer{
    margin: auto;
    margin-left: 0;
 }
+}
 /* responsive 640px */
 @media screen and (max-width: 640px){
   section.container_1{
@@ -1074,6 +1075,9 @@ footer h4{
 }
 /* Galaxy S5 360px*/
 @media screen and (max-width: 360px){
+  .search_filters section {
+    margin-left: 1rem;
+}
   .search_filter_category_2{
     margin-left: 0.5rem;
   }
