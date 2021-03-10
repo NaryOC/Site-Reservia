@@ -412,7 +412,7 @@ footer{
     width: 17rem;
   }
 .about{
-  margin-left: 2;
+  margin-left: 2rem;
 }
 }
 /* Responsive 600px */
@@ -1395,7 +1395,7 @@ footer h4{
   .populary_component img{
     width: 4rem;
   }
-  .populary_description h3, .populary_description p, .populary_description .stars{
+  .populary_description h3, .populary_description p, .populary_description, .stars{
     margin-bottom: 0;
   }
 }
