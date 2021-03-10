@@ -51,6 +51,16 @@
     width: 20rem;
 }
 }
+/* 1086px */
+@media screen and (max-width: 1086px){
+  .charts h2 {
+    margin: 0 42rem;
+    margin-left: 0;
+}
+.hostings_component, .hostings_component img {
+    width: 18rem;
+}
+}
 /* Responsive 1050px */
 @media screen and (max-width: 1050px){
   .search_form_submit_input{
