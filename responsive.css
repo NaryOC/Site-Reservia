@@ -176,27 +176,28 @@
 /* Responsive 940px */
 @media screen and (max-width: 940px){
   .charts h2 {
-    margin: 0 24em;
+    margin: 0 35rem;
     margin-left: 0;
 }
 .hostings_component, .hostings_component img {
     width: 15rem;
 }
 }
+/* 920px */
+@media screen and (max-width: 920px){
+  .charts h2{
+    margin: 0 35rem;
+    margin-left: 0;
+}
+}
 /* Responsive 900px */
 @media screen and (max-width: 900px){
   .charts h2{
-    margin: 0 20em;
+    margin: 0 32rem;
     margin-left: 0;
 }
 }
-/* 900px */
-@media screen and (max-width: 990px){
-  .charts h2{
-    margin: 0 25em;
-    margin-left: 0;
-}
-}
+
 /* Responsive 800px */
 @media screen and (max-width: 800px){
   .charts h2{
